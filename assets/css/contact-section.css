@@ -1,0 +1,42 @@
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+.contact-section p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+.contact-input-div{
+    background: #F9F9F9;
+    /* border: 1px solid #E6E6E6; */
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    margin-top: 50px;
+}
+.contact-input{
+    outline: none;
+    border: none;
+    width: 60vw;
+    box-sizing: border-box;
+    padding: 10px 25px ;
+    max-width: 840px;
+}
+.subscribe-button{
+    background: #23A6F0;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+    z-index: 9;
+    padding: 12px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}

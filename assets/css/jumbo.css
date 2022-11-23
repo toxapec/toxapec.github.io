@@ -1,0 +1,54 @@
+
+.jumbotron{
+    max-width: 1100px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+}
+.jumbotron-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 75%;
+
+}
+.jumbotron-left-join-us{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #23A6F0;
+    font-weight: 500;
+}
+.jumbotron-left-title, .jumbotron-left p{
+    text-align: left;
+}
+.jumbotron-left-title{
+    font-weight: 700;
+}
+.jumbotron-right img{
+    width: 550px;
+}
+.get-quote, .learn-more{
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 14px 27px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.get-quote{
+    background: #23A6F0;
+    margin-right: 15px;
+}
+.learn-more{
+    margin-left: 15px;
+    background-color: transparent;
+    border: 1px solid #23A6F0;
+    color: #23A6F0;
+}
